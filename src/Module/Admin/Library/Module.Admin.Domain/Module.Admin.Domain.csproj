@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Module.Admin.Domain</AssemblyName>
+    <RootNamespace>Kalan.Module.Admin.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Library\Auth\Auth.Abstractions\Auth.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\..\Library\Data\Core\Data.Core\Data.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\Library\Data\Extend\Data.Query\Data.Query.csproj" />
+  </ItemGroup>
+
+</Project>

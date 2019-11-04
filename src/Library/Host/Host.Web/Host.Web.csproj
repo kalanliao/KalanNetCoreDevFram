@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Lib.Host.Web</AssemblyName>
+    <RootNamespace>Kalan.Lib.Host.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpOverrides" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Rewrite" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Auth\Auth.Jwt\Auth.Jwt.csproj" />
+    <ProjectReference Include="..\..\Cache\Cache.Integration\Cache.Integration.csproj" />
+    <ProjectReference Include="..\..\Data\Extend\Data.Integration\Data.Integration.csproj" />
+    <ProjectReference Include="..\..\Logging\Logging.Serilog.WebHost\Logging.Serilog.WebHost.csproj" />
+    <ProjectReference Include="..\..\Mapper\Mapper.AutoMapper\Mapper.AutoMapper.csproj" />
+    <ProjectReference Include="..\..\Module\Module.AspNetCore\Module.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\Swagger\Swagger.Core\Swagger.Core.csproj" />
+    <ProjectReference Include="..\..\Utils\Utils.Core\Utils.Core.csproj" />
+    <ProjectReference Include="..\..\Utils\Utils.Mvc\Utils.Mvc.csproj" />
+    <ProjectReference Include="..\..\Validation\Validation.FluentValidation\Validation.FluentValidation.csproj" />
+  </ItemGroup>
+
+</Project>

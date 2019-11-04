@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Lib.Module.Abstractions</AssemblyName>
+    <RootNamespace>Kalan.Lib.Module.Abstractions</RootNamespace>
+  </PropertyGroup>
+
+</Project>

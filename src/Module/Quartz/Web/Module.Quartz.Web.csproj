@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Module.Quartz.Web</AssemblyName>
+    <RootNamespace>Kalan.Module.Quartz.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\Auth\Auth.Web\Auth.Web.csproj" />
+    <ProjectReference Include="..\..\..\Library\Quartz\Quartz.Web\Quartz.Web.csproj" />
+    <ProjectReference Include="..\..\..\Library\Utils\Utils.Core\Utils.Core.csproj" />
+    <ProjectReference Include="..\..\..\Library\Validation\Validation.FluentValidation\Validation.FluentValidation.csproj" />
+    <ProjectReference Include="..\Library\Application\Module.Quartz.Application.csproj" />
+    <ProjectReference Include="..\Library\Domain\Module.Quartz.Domain.csproj" />
+    <ProjectReference Include="..\Library\Infrastructure\Module.Quartz.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Module.Quartz.Application</AssemblyName>
+    <RootNamespace>Kalan.Module.Quartz.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Library\Mapper\Mapper.AutoMapper\Mapper.AutoMapper.csproj" />
+    <ProjectReference Include="..\..\..\..\Library\Quartz\Quartz.Abstractions\Quartz.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\..\Library\Utils\Utils.Core\Utils.Core.csproj" />
+    <ProjectReference Include="..\Domain\Module.Quartz.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Module.Quartz.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

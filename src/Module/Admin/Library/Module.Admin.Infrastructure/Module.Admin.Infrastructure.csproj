@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Module.Admin.Infrastructure</AssemblyName>
+    <RootNamespace>Kalan.Module.Admin.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Library\Data\Core\Data.Core\Data.Core.csproj" />
+    <ProjectReference Include="..\Module.Admin.Domain\Module.Admin.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

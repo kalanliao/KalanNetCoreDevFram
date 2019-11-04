@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Moudule.Admin.Application</AssemblyName>
+    <RootNamespace>Kalan.Moudule.Admin.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Library\Cache\Cache.Abstractions\Cache.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\..\Library\Mapper\Mapper.AutoMapper\Mapper.AutoMapper.csproj" />
+    <ProjectReference Include="..\Module.Admin.Domain\Module.Admin.Domain.csproj" />
+    <ProjectReference Include="..\Module.Admin.Infrastructure\Module.Admin.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Module.Quartz.Infrastructure</AssemblyName>
+    <RootNamespace>Kalan.Module.Quartz.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Library\Data\Core\Data.Abstractions\Data.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\Admin\Library\Module.Admin.Domain\Module.Admin.Domain.csproj" />
+    <ProjectReference Include="..\Domain\Module.Quartz.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

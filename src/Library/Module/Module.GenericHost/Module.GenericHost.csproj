@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Lib.Module.GenericHost</AssemblyName>
+    <RootNamespace>Kalan.Lib.Module.GenericHost</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module.Abstractions\Module.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

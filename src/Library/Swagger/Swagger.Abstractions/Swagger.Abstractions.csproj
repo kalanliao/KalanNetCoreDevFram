@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Lib.Swagger.Abstractions</AssemblyName>
+    <RootNamespace>Kalan.Lib.Swagger.Abstractions</RootNamespace>
+  </PropertyGroup>
+
+</Project>

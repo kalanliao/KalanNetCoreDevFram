@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Kalan.Lib.Data.Core</AssemblyName>
+    <RootNamespace>Kalan.Lib.Data.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.Abstractions\Data.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

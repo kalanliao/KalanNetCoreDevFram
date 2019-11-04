@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Library\Cache\Cache.MemoryCache\Cache.MemoryCache.csproj" />
+    <ProjectReference Include="..\src\Library\Host\Host.Web\Host.Web.csproj" />
+    <ProjectReference Include="..\src\Library\Logging\Logging.Serilog.WebHost\Logging.Serilog.WebHost.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="log\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\app\favicon.png" />
+    <None Include="wwwroot\app\icons\icon-128x128.png" />
+    <None Include="wwwroot\app\icons\icon-192x192.png" />
+    <None Include="wwwroot\app\icons\icon-512x512.png" />
+    <None Include="wwwroot\app\index.html" />
+    <None Include="wwwroot\app\layouts__BasicLayout.2d33112c.async.js" />
+    <None Include="wwwroot\app\layouts__BasicLayout.7afb2742.chunk.css" />
+    <None Include="wwwroot\app\layouts__SecurityLayout.3d6d3b7e.async.js" />
+    <None Include="wwwroot\app\layouts__UserLayout.0b56c488.chunk.css" />
+    <None Include="wwwroot\app\layouts__UserLayout.8854d965.async.js" />
+    <None Include="wwwroot\app\p__404.96b88187.async.js" />
+    <None Include="wwwroot\app\p__404.a5e49ad8.chunk.css" />
+    <None Include="wwwroot\app\p__systemsetting__employeesetting__model.ts.bf5aed26.async.js" />
+    <None Include="wwwroot\app\p__systemsetting__orgsetting__model.ts.8c3295dd.async.js" />
+    <None Include="wwwroot\app\p__user__login.55847968.chunk.css" />
+    <None Include="wwwroot\app\p__user__login.a463b9fb.async.js" />
+    <None Include="wwwroot\app\p__Welcome.704ff250.async.js" />
+    <None Include="wwwroot\app\static\fontawesome-webfont.674f50d2.eot" />
+    <None Include="wwwroot\app\static\fontawesome-webfont.912ec66d.svg" />
+    <None Include="wwwroot\app\static\fontawesome-webfont.af7ae505.woff2" />
+    <None Include="wwwroot\app\static\fontawesome-webfont.b06871f2.ttf" />
+    <None Include="wwwroot\app\static\fontawesome-webfont.fee66e71.woff" />
+    <None Include="wwwroot\app\umi.5c383242.css" />
+    <None Include="wwwroot\app\umi.fa79ca88.js" />
+    <None Include="wwwroot\app\vendors.042f537b.chunk.css" />
+    <None Include="wwwroot\app\vendors.1e572f3d.async.js" />
+  </ItemGroup>
+
+</Project>
